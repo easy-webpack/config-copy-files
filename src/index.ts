@@ -1,5 +1,5 @@
-import {WebpackConfig, get} from '@easy-webpack/core';
-const CopyWebpackPlugin = require('copy-webpack-plugin');
+import {WebpackConfig, get} from '@easy-webpack/core'
+const CopyWebpackPlugin = require('copy-webpack-plugin')
 
 /**
  * For copying files and folders see here for options: https://github.com/kevlened/copy-webpack-plugin
@@ -12,7 +12,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
  * ]})
  *
  */
-export = function copyFiles({patterns: [], options = {}} = {}) {
+export = function copyFiles({patterns = [], options = {}} = {}) {
   return function copyFiles(this: WebpackConfig): WebpackConfig {
     const config = {
       plugins: [
