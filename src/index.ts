@@ -14,7 +14,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
  */
 export = function copyFiles({patterns = [], options = {}} = {}) {
   return function copyFiles(this: WebpackConfig): WebpackConfig {
-    const config = {
+    return {
       plugins: [
         new CopyWebpackPlugin(patterns, options)
       ].concat(get(this, 'plugins', []))
