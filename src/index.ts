@@ -6,8 +6,8 @@ const CopyWebpackPlugin = require('copy-webpack-plugin')
  *
  * Basic usage:
  *
- * require('@easy-webpack/config-generate-index-html')
- * {patterns: [
+ * require('@easy-webpack/config-copy-files')
+ * ({patterns: [
  *   {from: 'src/images', to: 'images'}
  * ]})
  *
