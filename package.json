@@ -30,6 +30,11 @@
   },
   "homepage": "https://github.com/easy-webpack/config-copy-files#readme",
   "devDependencies": {
+    "@types/debug": "0.0.29",
+    "@types/lodash": "^4.14.38",
+    "@types/node": "^6.0.46",
+    "@types/source-map": "^0.1.29",
+    "@types/webpack": "^1.12.35",
     "ava": "^0.16.0",
     "greenkeeper-postpublish": "^1.0.0",
     "rimraf": "^2.5.4",
@@ -40,12 +45,6 @@
     "typescript": ">=1.9.0-dev.20160619-1.0 || ^2.0.0"
   },
   "dependencies": {
-    "@types/debug": "^0.0.29",
-    "@types/lodash": "^4.14.37",
-    "@types/node": "^6.0.46",
-    "@types/source-map": "^0.1.28",
-    "@types/uglify-js": "^2.6.28",
-    "@types/webpack": "^1.12.35",
     "copy-webpack-plugin": "^4.0.0"
   },
   "peerDependencies": {
