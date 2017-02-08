@@ -1,4 +1,6 @@
 # @easy-webpack/config-copy-files
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/easy-webpack/config-copy-files.svg)](https://greenkeeper.io/)
 Copy files to build directory using [Copy webpack plugin](https://github.com/kevlened/copy-webpack-plugin).
 
 # Installation
